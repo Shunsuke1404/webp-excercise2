@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link href="images.css" rel="stylesheet">
+    <title>enshu2</title>
+  </head>
+  <body>
+    <h1>日本大学文理学部情報科学科 Webプログラミングの演習課題</h1>
+    <h2>5421025 新沼俊介</h2>
+    <p>base要素</p>
+    <ul>
+        <li>説明</li>
+        base要素は、著者にURLを解析する目的で文書の基底URLを指定、および次に続くハイパーリンクのためにデフォルトでブラウジングコンテキストの名前の指定を可能にする。この要素は、この情報を超えた任意のコンテンツを表すものでない。
+        <br>base要素は、href属性、またはtarget属性のいずれか、あるいはその両方を持たなければならない。
+        <li>コード例</li>
+        &lt;base href="https://www.example.com/news/index.html"&gt;
+        <li>動作結果</li>
+        上記のコードより、リンクは"http://www.example.com/news/archives.html"へのリンクとなる。
+    </ul>
+    <p>meta要素</p>
+    <ul>
+        <li>説明</li>
+        meta要素は、title、base、link、style、script要素を用いて表現できない様々な種類のメタデータを表す。
+        <br>meta要素は、name属性をもつ文書レベルのメタデータ、http-equiv属性を持つプラグマ・ディレクティブ、およびcharset属性をもつHTML文書が文字列形式にシリアライズされる（たとえば、ネットワーク上の伝送、またはディスクストレージ）場合、ファイルの文字エンコーディング宣言を表すことができる。
+        <li>コード例</li>
+        &lt;meta name="theme-color" content="#3c790a"&gt;
+        <li>動作結果</li>
+        この標準自身はテーマカラーとして"WHATWG green"を使用しているmetaになる。
+    </ul>
+    <p>style要素</p>
+    <ul>
+        <li>説明</li>
+        style要素は、著者に文書へCSSスタイルシートを埋め込むことを可能にする。style要素は、スタイリング処理モデルへの、複数の入力の1つである。この要素は、ユーザーへのコンテンツを表すものでない。
+        <li>コード例</li>
+        &lt;style>
+            body { color: black; background: white; }
+            em { font-style: normal; color: red; }
+           style&gt;
+        <li>動作結果</li>
+        次の文書は、デフォルトのイタリック体で作品とラテン語のタイトルを残したまま、イタリックテキストよりも明るい赤色のテキストとして強調するスタイルを持つ。適切な要素を使用した、文書のより簡単な再スタイル付けを可能にする方法を示す。
+    </ul>
+  </body>
+</html>
